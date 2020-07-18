@@ -1,0 +1,55 @@
+uuid: 23fd0c01-d4d1-4ccc-8137-2a28f19d07e2
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.mobile
+  module:
+    - ckeditor
+format: mobile
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formato
+          items:
+            - Bold
+            - Italic
+        -
+          name: Enlaces
+          items:
+            - DrupalLink
+            - DrupalUnlink
+        -
+          name: Listas
+          items:
+            - BulletedList
+            - NumberedList
+            - quote
+  plugins:
+    stylescombo:
+      styles: ''
+    drupallink:
+      linkit_enabled: false
+      linkit_profile: ''
+    language:
+      language_list: un
+    colorbutton:
+      colors: ''
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

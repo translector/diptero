@@ -1,0 +1,30 @@
+uuid: b788affa-fc54-4bba-b1d5-5b0fc3eda56b
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - user
+id: user.field_foto_de_perfil
+field_name: field_foto_de_perfil
+entity_type: user
+type: image
+settings:
+  default_image:
+    uuid: null
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

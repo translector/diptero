@@ -1,0 +1,31 @@
+uuid: ae5ff620-e87c-4db3-9b68-912ecf6938be
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.audio.field_audio
+    - field.field.paragraph.audio.field_estilo
+    - paragraphs.paragraphs_type.audio
+  module:
+    - file
+id: paragraph.audio.default
+targetEntityType: paragraph
+bundle: audio
+mode: default
+content:
+  field_audio:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_estilo:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

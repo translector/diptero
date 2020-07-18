@@ -1,0 +1,10 @@
+uuid: c00d1613-6132-4156-816f-fb5cdd0d46a7
+langcode: es
+status: true
+dependencies: {  }
+id: parthreecol
+label: 'III columnas'
+icon_uuid: null
+icon_default: null
+description: 'Tres columnas de contenido.'
+behavior_plugins: {  }

@@ -1,0 +1,10 @@
+uuid: f3c3fccd-d4b6-4277-baca-fdbd3db79901
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.token
+label: Comodín
+targetEntityType: menu_link_content
+cache: true

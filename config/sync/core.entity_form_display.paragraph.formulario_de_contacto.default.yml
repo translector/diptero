@@ -1,0 +1,31 @@
+uuid: 576eacef-c809-4571-bc40-c77aa7a79d43
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.formulario_de_contacto.field_estilo
+    - field.field.paragraph.formulario_de_contacto.field_formulario_de_contacto
+    - paragraphs.paragraphs_type.formulario_de_contacto
+  module:
+    - webform
+id: paragraph.formulario_de_contacto.default
+targetEntityType: paragraph
+bundle: formulario_de_contacto
+mode: default
+content:
+  field_estilo:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_formulario_de_contacto:
+    weight: 1
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,10 @@
+uuid: 9b4c9d0b-4f17-4408-9079-864f06a4e770
+langcode: es
+status: true
+dependencies: {  }
+id: formulario_de_contacto
+label: 'Formulario de contacto'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

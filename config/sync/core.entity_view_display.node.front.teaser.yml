@@ -1,0 +1,22 @@
+uuid: 827fd55e-8c03-481b-8c89-f4a957c3ee25
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.front
+  module:
+    - user
+id: node.front.teaser
+targetEntityType: node
+bundle: front
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contenido: true
+  langcode: true

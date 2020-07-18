@@ -1,0 +1,25 @@
+uuid: fe925a01-aaa9-4b54-8345-6b74ff39756c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.imagen.field_imagen
+    - paragraphs.paragraphs_type.imagen
+    - responsive_image.styles.imagen_adaptable
+  module:
+    - responsive_image
+id: paragraph.imagen.default
+targetEntityType: paragraph
+bundle: imagen
+mode: default
+content:
+  field_imagen:
+    type: responsive_image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      responsive_image_style: imagen_adaptable
+      image_link: ''
+    third_party_settings: {  }
+hidden: {  }

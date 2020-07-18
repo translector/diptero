@@ -1,0 +1,19 @@
+uuid: 29fcd5bb-2d3b-4302-9ebf-6040893f5123
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_centercol
+field_name: field_centercol
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,15 @@
+uuid: 2698b8d7-41e7-4145-8e1a-3dd19b09929f
+langcode: es
+status: true
+dependencies: {  }
+name: largedesktop
+label: LargeDesktop
+effects:
+  99871528-38f7-4904-a275-43847769526e:
+    uuid: 99871528-38f7-4904-a275-43847769526e
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 686
+      anchor: center-center

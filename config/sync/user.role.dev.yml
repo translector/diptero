@@ -1,0 +1,9 @@
+uuid: 84a3a52c-6506-46ef-b04f-e0888a092df6
+langcode: es
+status: true
+dependencies: {  }
+id: dev
+label: Desarrollador
+weight: -6
+is_admin: true
+permissions: {  }

@@ -1,0 +1,10 @@
+uuid: a1637513-fdbb-40c0-8ff6-fa930e078439
+langcode: es
+status: true
+dependencies: {  }
+id: texto_y_video
+label: 'Texto y video'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

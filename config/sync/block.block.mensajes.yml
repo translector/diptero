@@ -1,0 +1,20 @@
+uuid: aa884566-4b4c-4ae9-b613-81ae80170c2e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - real
+id: mensajes
+theme: real
+region: messages
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Mensajes
+  provider: system
+  label_display: '0'
+visibility: {  }

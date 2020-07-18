@@ -1,0 +1,59 @@
+uuid: 9a024daf-94e7-4b15-af6b-9967511d13f2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contenido
+    - node.type.front
+  module:
+    - entity_reference_revisions
+id: node.front.field_contenido
+field_name: field_contenido
+entity_type: node
+bundle: front
+label: contenido
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles: null
+    target_bundles_drag_drop:
+      paronecol:
+        weight: -23
+        enabled: false
+      imagen:
+        weight: -22
+        enabled: false
+      video:
+        weight: -21
+        enabled: false
+      par_text_img:
+        weight: -20
+        enabled: false
+      texto_y_video:
+        weight: -19
+        enabled: false
+      formulario_de_contacto:
+        weight: -18
+        enabled: false
+      partwocol:
+        weight: -17
+        enabled: false
+      parthreecol:
+        weight: -16
+        enabled: false
+      parfourcol:
+        weight: -15
+        enabled: false
+      slider:
+        weight: -14
+        enabled: false
+      audio:
+        weight: -13
+        enabled: false
+field_type: entity_reference_revisions

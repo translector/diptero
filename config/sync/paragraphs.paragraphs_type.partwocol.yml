@@ -1,0 +1,10 @@
+uuid: 83de43ac-6b29-4a42-a427-06c22795c5de
+langcode: es
+status: true
+dependencies: {  }
+id: partwocol
+label: 'II columnas'
+icon_uuid: null
+icon_default: null
+description: 'Dos columnas de contenido.'
+behavior_plugins: {  }

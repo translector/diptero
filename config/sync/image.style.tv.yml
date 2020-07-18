@@ -1,0 +1,15 @@
+uuid: 9e448f5e-42c1-4347-86af-0bcbef887f4f
+langcode: es
+status: true
+dependencies: {  }
+name: tv
+label: Tv
+effects:
+  7ed6b3cb-2f67-4ccc-b64f-3c8736a58524:
+    uuid: 7ed6b3cb-2f67-4ccc-b64f-3c8736a58524
+    id: image_scale
+    weight: 1
+    data:
+      width: 1600
+      height: 1600
+      upscale: false

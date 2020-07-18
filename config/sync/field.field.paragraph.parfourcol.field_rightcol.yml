@@ -1,0 +1,21 @@
+uuid: 2a3b652d-beab-40c7-9f2a-1632ccda2cd7
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rightcol
+    - paragraphs.paragraphs_type.parfourcol
+  module:
+    - text
+id: paragraph.parfourcol.field_rightcol
+field_name: field_rightcol
+entity_type: paragraph
+bundle: parfourcol
+label: 'Columna derecha'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

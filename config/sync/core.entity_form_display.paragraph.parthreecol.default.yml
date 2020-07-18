@@ -1,0 +1,68 @@
+uuid: 9a91d11c-bdaf-41bd-9161-a6e4421159bc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parthreecol.field_centercol
+    - field.field.paragraph.parthreecol.field_estilo
+    - field.field.paragraph.parthreecol.field_leftcol
+    - field.field.paragraph.parthreecol.field_rightcol
+    - field.field.paragraph.parthreecol.field_titulo_parrafo
+    - paragraphs.paragraphs_type.parthreecol
+  module:
+    - text
+id: paragraph.parthreecol.default
+targetEntityType: paragraph
+bundle: parthreecol
+mode: default
+content:
+  field_centercol:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_estilo:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_leftcol:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_rightcol:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

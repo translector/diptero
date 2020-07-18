@@ -1,0 +1,20 @@
+uuid: 467ad0d2-f625-47f2-b7d7-ca9a7639753c
+langcode: es
+status: true
+dependencies:
+  module:
+    - classy_paragraphs
+    - paragraphs
+id: paragraph.field_estilo
+field_name: field_estilo
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: classy_paragraphs_style
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

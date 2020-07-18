@@ -1,0 +1,22 @@
+name: Drupal Eight real Theme
+type: theme
+description: 'Real Drupal 8 Responsive Theme. Developed & Designed by @translector'
+core_version_requirement: ^8 || ^9
+
+#Libraries
+libraries:
+  - real/global
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  banner: 'Banner'
+  tabs: 'Tabs'
+  messages: 'Messages'
+  slider: 'Slider'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer: 'Footer'
+  auto_hidden_block: 'Auto hidden blocks'

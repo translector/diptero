@@ -1,0 +1,15 @@
+uuid: c43aa5d8-c48a-493e-b21f-7cd6efc391dd
+langcode: es
+status: true
+dependencies: {  }
+name: tablet
+label: Tablet
+effects:
+  a27b756b-acaf-46fd-b063-d1ec6a8cd5e6:
+    uuid: a27b756b-acaf-46fd-b063-d1ec6a8cd5e6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1024
+      height: 1024
+      upscale: false

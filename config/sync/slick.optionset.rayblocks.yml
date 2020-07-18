@@ -1,0 +1,52 @@
+uuid: adf9a98d-1e9c-45d0-8710-187a9ea4f0e5
+langcode: es
+status: false
+dependencies:
+  enforced:
+    module:
+      - slick
+_core:
+  default_config_hash: Eftl1a7xbbO6mevyhNB0HcFn_9ArT6U-02X1gIPvCa0
+id: rayblocks
+name: rayblocks
+label: Rayblocks
+weight: -10
+group: ''
+skin: default
+breakpoints: 1
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    autoplay: true
+    autoplaySpeed: 2000
+    pauseOnDotsHover: true
+    centerMode: true
+    dots: true
+    fade: true
+    focusOnSelect: true
+    lazyLoad: blazy
+    mouseWheel: true
+    respondTo: slider
+    slidesPerRow: 4
+    slidesToShow: 4
+    slidesToScroll: 4
+    speed: 200
+    swipeToSlide: true
+    touchMove: false
+    cssEase: 'cubic-bezier(0.755, 0.050, 0.855, 0.060)'
+    useTransform: false
+    waitForAnimate: false
+  responsives:
+    responsive:
+      -
+        breakpoint: 480
+        unslick: false
+        settings:
+          autoplay: true
+          pauseOnFocus: false
+          arrows: false
+          draggable: false
+          swipe: false
+          touchMove: false
+          waitForAnimate: false

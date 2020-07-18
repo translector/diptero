@@ -1,0 +1,21 @@
+uuid: 070fc6df-0679-473e-bb97-ab70f339d74b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_leftcol
+    - paragraphs.paragraphs_type.texto_y_video
+  module:
+    - text
+id: paragraph.texto_y_video.field_leftcol
+field_name: field_leftcol
+entity_type: paragraph
+bundle: texto_y_video
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

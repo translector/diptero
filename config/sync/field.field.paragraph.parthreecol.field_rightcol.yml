@@ -1,0 +1,21 @@
+uuid: d4ed0006-20a0-4180-9305-43f0203dd251
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rightcol
+    - paragraphs.paragraphs_type.parthreecol
+  module:
+    - text
+id: paragraph.parthreecol.field_rightcol
+field_name: field_rightcol
+entity_type: paragraph
+bundle: parthreecol
+label: 'Columna derecha'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

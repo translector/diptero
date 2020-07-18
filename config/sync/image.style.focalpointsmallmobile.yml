@@ -1,0 +1,17 @@
+uuid: 7d402ac8-8770-4347-a099-8a50778e6c66
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focalpointsmallmobile
+label: FocalPointSmallMobile
+effects:
+  109f2914-5388-474c-a639-930d10644789:
+    uuid: 109f2914-5388-474c-a639-930d10644789
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 360
+      height: 480
+      crop_type: focal_point

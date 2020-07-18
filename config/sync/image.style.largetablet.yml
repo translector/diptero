@@ -1,0 +1,15 @@
+uuid: 05813cbc-6035-4a0c-9bb2-40574407e1f7
+langcode: es
+status: true
+dependencies: {  }
+name: largetablet
+label: LargeTablet
+effects:
+  6b03806d-96fe-45ae-a146-64a9c49261b2:
+    uuid: 6b03806d-96fe-45ae-a146-64a9c49261b2
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 950
+      height: 534
+      anchor: center-center

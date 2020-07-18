@@ -1,0 +1,7 @@
+uuid: 03a0f076-8d39-4a01-abad-589435bc9364
+langcode: es
+status: true
+dependencies: {  }
+id: naranjo
+label: Naranjo
+classes: naranjo

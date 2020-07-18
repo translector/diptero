@@ -1,0 +1,15 @@
+uuid: 14deb38e-6be2-4734-81ae-2545dc3705b9
+langcode: es
+status: true
+dependencies: {  }
+name: smalltablet
+label: SmallTablet
+effects:
+  524e7c13-390e-44c3-955c-7f58367d5f96:
+    uuid: 524e7c13-390e-44c3-955c-7f58367d5f96
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 432
+      anchor: center-center

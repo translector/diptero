@@ -1,0 +1,10 @@
+uuid: ba555fdc-c25e-402a-83e9-f22724a458ee
+langcode: es
+status: true
+dependencies: {  }
+id: mostrar_un_mensaje_al_usuario
+label: 'Mostrar un mensaje al usuario'
+type: system
+plugin: action_message_action
+configuration:
+  message: 'Vuelve pronto [user:account-name]'

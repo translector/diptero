@@ -1,0 +1,26 @@
+<?php declare(strict_types = 1);
+
+return PHPStan\Cache\CacheItem::__set_state(array(
+   'variableKey' => '0.4.8',
+   'data' => 'O:42:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocNode":1:{s:8:"children";a:27:{i:0;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:60:"Sources whose data may be fetched via a database connection.";}i:1;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:2;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:29:"Available configuration keys:";}i:3;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:116:"- database_state_key: (optional) Name of the state key which contains an
+array with database connection information.";}i:4;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:63:"- key: (optional) The database key name. Defaults to \'migrate\'.";}i:5;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:69:"- target: (optional) The database target name. Defaults to \'default\'.";}i:6;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:143:"- batch_size: (optional) Number of records to fetch from the database during
+each batch. If omitted, all records are fetched in a single query.";}i:7;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:311:"- ignore_map: (optional) Source data is joined to the map table by default to
+improve migration performance. If set to TRUE, the map table will not be
+joined. Using expressions in the query may result in column aliases in the
+JOIN clause which would be invalid SQL. If you run into this, set
+ignore_map to TRUE.";}i:8;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:9;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:135:"For other optional configuration keys inherited from the parent class, refer
+to \\Drupal\\migrate\\Plugin\\migrate\\source\\SourcePluginBase.";}i:10;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:11;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:40:"About the source database determination:";}i:12;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:170:"- If the source plugin configuration contains \'database_state_key\', its value
+is taken as the name of a state key which contains an array with the
+database configuration.";}i:13;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:114:"- Otherwise, if the source plugin configuration contains \'key\', the database
+configuration with that name is used.";}i:14;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:148:"- If both \'database_state_key\' and \'key\' are omitted in the source plugin
+configuration, the database connection named \'migrate\' is used by default.";}i:15;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:66:"- If all of the above steps fail, RequirementsException is thrown.";}i:16;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:17;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:456:"Drupal Database API supports multiple database connections. The connection
+parameters are defined in $databases array in settings.php or
+settings.local.php. It is also possible to modify the $databases array in
+runtime. For example, Migrate Drupal, which provides the migrations from
+Drupal 6 / 7, asks for the source database connection parameters in the UI
+and then adds the $databases[\'migrate\'] connection in runtime before the
+migrations are executed.";}i:18;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:19;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:220:"As described above, the default source database is $databases[\'migrate\']. If
+the source plugin needs another source connection, the database connection
+parameters should be added to the $databases array as, for instance,";}i:20;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:76:"$databases[\'foo\']. The source plugin can then use this connection by setting";}i:21;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:36:"\'key\' to \'foo\' in its configuration.";}i:22;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:23;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:146:"For a complete example on migrating data from an SQL source, refer to
+https://www.drupal.org/docs/8/api/migrate-api/migrating-data-from-sql-source";}i:24;O:46:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTextNode":1:{s:4:"text";s:0:"";}i:25;O:45:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTagNode":2:{s:4:"name";s:4:"@see";s:5:"value";O:51:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\GenericTagValueNode":1:{s:5:"value";s:46:"https://www.drupal.org/docs/8/api/database-api";}}i:26;O:45:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\PhpDocTagNode":2:{s:4:"name";s:4:"@see";s:5:"value";O:51:"PHPStan\\PhpDocParser\\Ast\\PhpDoc\\GenericTagValueNode":1:{s:5:"value";s:58:"\\Drupal\\migrate_drupal\\Plugin\\migrate\\source\\DrupalSqlBase";}}}}',
+));

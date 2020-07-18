@@ -1,0 +1,15 @@
+uuid: e30d94cc-4ed6-4a4a-a078-b96e14daa2ed
+langcode: es
+status: true
+dependencies: {  }
+name: middledesktop
+label: MiddleDesktop
+effects:
+  a49556a1-3739-49ad-ba9f-ca5866faef99:
+    uuid: a49556a1-3739-49ad-ba9f-ca5866faef99
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1536
+      height: 500
+      anchor: center-center

@@ -1,0 +1,19 @@
+uuid: a6c1014d-e472-408e-ba2f-6c1272f71009
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_parrafo
+    - paragraphs.paragraphs_type.paronecol
+id: paragraph.paronecol.field_titulo_parrafo
+field_name: field_titulo_parrafo
+entity_type: paragraph
+bundle: paronecol
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

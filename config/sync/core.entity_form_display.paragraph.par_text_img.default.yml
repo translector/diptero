@@ -1,0 +1,54 @@
+uuid: 4a7b2c7c-b6ee-433e-bf05-5ad5538a2472
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.par_text_img.field_estilo
+    - field.field.paragraph.par_text_img.field_imagen
+    - field.field.paragraph.par_text_img.field_leftcol
+    - field.field.paragraph.par_text_img.field_titulo_parrafo
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.par_text_img
+  module:
+    - focal_point
+    - text
+id: paragraph.par_text_img.default
+targetEntityType: paragraph
+bundle: par_text_img
+mode: default
+content:
+  field_estilo:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_imagen:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      preview_link: true
+      offsets: '50,50'
+    third_party_settings: {  }
+    type: image_focal_point
+    region: content
+  field_leftcol:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,15 @@
+uuid: 43d57fd7-057e-4776-a694-baabb3b5313a
+name: Rayblocks
+mail: admin@admin
+slogan: 'Control de plagas'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

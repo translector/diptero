@@ -1,0 +1,15 @@
+uuid: f5a7dc05-c823-46a0-b68a-c3b04cbb13a2
+langcode: es
+status: true
+dependencies: {  }
+name: smalltv
+label: SmallTv
+effects:
+  4421a424-ecbf-49ef-8381-81ca11f91e9f:
+    uuid: 4421a424-ecbf-49ef-8381-81ca11f91e9f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

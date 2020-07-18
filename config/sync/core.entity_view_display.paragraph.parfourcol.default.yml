@@ -1,0 +1,64 @@
+uuid: e1ef057c-92e2-4663-972e-6accdfb27c76
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.parfourcol.field_centercol
+    - field.field.paragraph.parfourcol.field_centercolb
+    - field.field.paragraph.parfourcol.field_estilo
+    - field.field.paragraph.parfourcol.field_leftcol
+    - field.field.paragraph.parfourcol.field_rightcol
+    - field.field.paragraph.parfourcol.field_titulo_parrafo
+    - paragraphs.paragraphs_type.parfourcol
+  module:
+    - text
+id: paragraph.parfourcol.default
+targetEntityType: paragraph
+bundle: parfourcol
+mode: default
+content:
+  field_centercol:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_centercolb:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_estilo:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_leftcol:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_rightcol:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_parrafo:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

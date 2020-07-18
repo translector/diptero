@@ -1,0 +1,10 @@
+uuid: 69ed7756-cab3-4264-bf68-7633dc46478e
+langcode: es
+status: true
+dependencies:
+  module:
+    - crop
+id: crop.token
+label: Comodín
+targetEntityType: crop
+cache: true

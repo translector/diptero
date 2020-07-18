@@ -1,0 +1,10 @@
+uuid: 4ed15e86-c8c6-4d61-b4ff-e2538403fb73
+langcode: es
+status: true
+dependencies: {  }
+id: paronecol
+label: Texto
+icon_uuid: null
+icon_default: null
+description: 'Una columna de contenido.'
+behavior_plugins: {  }

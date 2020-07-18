@@ -1,0 +1,21 @@
+uuid: ade610c3-573b-4e30-8808-95fd37b3e975
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_centercol
+    - paragraphs.paragraphs_type.parthreecol
+  module:
+    - text
+id: paragraph.parthreecol.field_centercol
+field_name: field_centercol
+entity_type: paragraph
+bundle: parthreecol
+label: 'Columna central'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

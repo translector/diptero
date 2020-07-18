@@ -1,0 +1,21 @@
+uuid: 2fb9bea6-8a00-4a1e-b7d2-593fa7f45f87
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_leftcol
+    - paragraphs.paragraphs_type.par_text_img
+  module:
+    - text
+id: paragraph.par_text_img.field_leftcol
+field_name: field_leftcol
+entity_type: paragraph
+bundle: par_text_img
+label: Texto
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

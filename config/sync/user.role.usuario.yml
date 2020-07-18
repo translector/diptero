@@ -1,0 +1,9 @@
+uuid: 2558a6ff-a9e1-41b2-af97-face48e9bb8c
+langcode: es
+status: true
+dependencies: {  }
+id: usuario
+label: Usuario
+weight: -8
+is_admin: null
+permissions: {  }

@@ -1,0 +1,21 @@
+uuid: 2a1b8ce0-2516-4722-9192-ee16e1efd823
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_onecol
+    - paragraphs.paragraphs_type.paronecol
+  module:
+    - text
+id: paragraph.paronecol.field_onecol
+field_name: field_onecol
+entity_type: paragraph
+bundle: paronecol
+label: Columna
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

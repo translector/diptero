@@ -1,0 +1,15 @@
+uuid: 9f2be52b-007a-41a3-b7c8-e04ee3cbd012
+langcode: es
+status: true
+dependencies: {  }
+name: clientes
+label: Clientes
+effects:
+  5b9ca6a4-d7db-4a7e-8446-38b0d97decaf:
+    uuid: 5b9ca6a4-d7db-4a7e-8446-38b0d97decaf
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 190
+      height: 186
+      anchor: center-center

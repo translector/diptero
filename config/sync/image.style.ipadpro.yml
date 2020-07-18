@@ -1,0 +1,15 @@
+uuid: fde84dff-5f7a-4e01-b03d-85b7b9626bf4
+langcode: es
+status: true
+dependencies: {  }
+name: ipadpro
+label: IpadPro
+effects:
+  f2b307cd-4399-407e-9e21-5aa9a3efc3bb:
+    uuid: f2b307cd-4399-407e-9e21-5aa9a3efc3bb
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 576
+      anchor: center-center

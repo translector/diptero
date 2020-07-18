@@ -1,0 +1,49 @@
+uuid: 6cd8b480-88dc-4031-806b-e5fab3d9993e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto_y_video.field_estilo
+    - field.field.paragraph.texto_y_video.field_leftcol
+    - field.field.paragraph.texto_y_video.field_titulo_parrafo
+    - field.field.paragraph.texto_y_video.field_video
+    - paragraphs.paragraphs_type.texto_y_video
+  module:
+    - text
+    - video_embed_field
+id: paragraph.texto_y_video.default
+targetEntityType: paragraph
+bundle: texto_y_video
+mode: default
+content:
+  field_estilo:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_leftcol:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_video:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+hidden:
+  created: true
+  status: true

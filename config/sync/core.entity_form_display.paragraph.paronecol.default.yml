@@ -1,0 +1,48 @@
+uuid: 1cefd5bf-d48e-41c7-90d6-05c1d05288da
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paronecol.field_estilo
+    - field.field.paragraph.paronecol.field_onecol
+    - field.field.paragraph.paronecol.field_titulo_parrafo
+    - paragraphs.paragraphs_type.paronecol
+  module:
+    - text
+id: paragraph.paronecol.default
+targetEntityType: paragraph
+bundle: paronecol
+mode: default
+content:
+  field_estilo:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_onecol:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,21 @@
+uuid: f8d36aeb-97c5-4e6b-ac76-acb359fc3e44
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_leftcol
+    - paragraphs.paragraphs_type.parthreecol
+  module:
+    - text
+id: paragraph.parthreecol.field_leftcol
+field_name: field_leftcol
+entity_type: paragraph
+bundle: parthreecol
+label: 'Columna izquierda'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

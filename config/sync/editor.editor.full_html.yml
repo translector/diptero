@@ -1,0 +1,67 @@
+uuid: 3497a1ee-2596-45e3-a87a-1d3bc0e54e18
+langcode: es
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+  module:
+    - ckeditor
+_core:
+  default_config_hash: 967ijj7p6i7rwrYl7r08WQFeCY_c23YAh0h8u-w_CXM
+format: full_html
+editor: ckeditor
+settings:
+  toolbar:
+    rows:
+      -
+        -
+          name: Formato
+          items:
+            - Styles
+            - ShowBlocks
+            - Source
+        -
+          name: Media
+          items:
+            - DrupalLink
+            - btbutton
+            - quote
+            - HorizontalRule
+            - TextColor
+        -
+          name: Formatting
+          items:
+            - Bold
+            - Italic
+            - JustifyLeft
+            - JustifyCenter
+            - JustifyRight
+            - JustifyBlock
+            - BulletedList
+            - NumberedList
+            - '-'
+  plugins:
+    stylescombo:
+      styles: "h2.title| Título (heading 2)\r\nh3.title| Título (heading 3)\r\np| Párrafo"
+    drupallink:
+      linkit_enabled: false
+      linkit_profile: ''
+    language:
+      language_list: un
+    colorbutton:
+      colors: ''
+    video_embed:
+      defaults:
+        children:
+          autoplay: true
+          responsive: true
+          width: '854'
+          height: '480'
+image_upload:
+  status: false
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: null
+    height: null

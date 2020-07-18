@@ -1,0 +1,10 @@
+uuid: f1c44f20-2964-4b38-b65a-1fb95e637a20
+langcode: es
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.token
+label: Comodín
+targetEntityType: paragraph
+cache: true

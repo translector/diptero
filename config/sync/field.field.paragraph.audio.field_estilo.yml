@@ -1,0 +1,23 @@
+uuid: cce57d67-7072-45ac-9ed6-3c4c35603b2a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_estilo
+    - paragraphs.paragraphs_type.audio
+id: paragraph.audio.field_estilo
+field_name: field_estilo
+entity_type: paragraph
+bundle: audio
+label: 'Color de fondo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:classy_paragraphs_style'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: entity_reference

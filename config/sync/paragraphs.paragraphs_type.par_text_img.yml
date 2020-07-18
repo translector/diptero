@@ -1,0 +1,10 @@
+uuid: 1ac66ae4-cb51-47a5-b7fa-ff2746118f0b
+langcode: es
+status: true
+dependencies: {  }
+id: par_text_img
+label: 'Texto e imágen'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

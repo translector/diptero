@@ -1,0 +1,7 @@
+uuid: 0b05caa5-4d43-4c2a-90a1-5d7d7983b16d
+langcode: es
+status: true
+dependencies: {  }
+id: blanco
+label: Blanco
+classes: blanco

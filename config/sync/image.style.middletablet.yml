@@ -1,0 +1,15 @@
+uuid: 9204c160-3fec-4a6f-86fb-81c76f1efb8b
+langcode: es
+status: true
+dependencies: {  }
+name: middletablet
+label: MiddleTablet
+effects:
+  c5a26497-c32f-44dd-85f8-6b9d58ae757d:
+    uuid: c5a26497-c32f-44dd-85f8-6b9d58ae757d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 834
+      height: 469
+      anchor: center-center

@@ -1,0 +1,14 @@
+uuid: 3e19221b-d2f3-42a3-85b1-9730d4fdf31b
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.usuario
+  module:
+    - user
+id: user_add_role_action.usuario
+label: 'Añade el rol Usuario al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: usuario

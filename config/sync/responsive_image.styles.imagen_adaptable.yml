@@ -1,0 +1,38 @@
+uuid: 6ad8109d-cde5-456d-8d02-e6c991a563a1
+langcode: es
+status: true
+dependencies:
+  config:
+    - image.style.focalpointlargemobile
+    - image.style.focalpointmiddledesktop
+    - image.style.focalpointmiddlemobile
+    - image.style.focalpointnanomobile
+    - image.style.focalpointsmalldesktop
+    - image.style.focalpointsmallmobile
+    - image.style.imagen
+    - image.style.largetablet
+    - image.style.largetv
+    - image.style.middledesktop
+    - image.style.middletablet
+id: imagen_adaptable
+label: 'Imagen adaptable'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - focalpointlargemobile
+        - focalpointmiddledesktop
+        - focalpointmiddlemobile
+        - focalpointnanomobile
+        - focalpointsmalldesktop
+        - focalpointsmallmobile
+        - largetablet
+        - largetv
+        - middledesktop
+        - middletablet
+breakpoint_group: responsive_image
+fallback_image_style: imagen

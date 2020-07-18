@@ -1,0 +1,15 @@
+uuid: 17fcae08-c20d-4c00-a34b-881309eae537
+langcode: es
+status: true
+dependencies: {  }
+name: narrow
+label: Narrow
+effects:
+  01989eea-46ed-4e08-87f0-435df33bf0cb:
+    uuid: 01989eea-46ed-4e08-87f0-435df33bf0cb
+    id: image_scale
+    weight: 1
+    data:
+      width: 767
+      height: 767
+      upscale: false

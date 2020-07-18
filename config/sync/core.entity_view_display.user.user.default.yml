@@ -1,0 +1,27 @@
+uuid: 7752cedb-f536-4ab3-bfb8-f16d50754ffc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_foto_de_perfil
+    - image.style.medium
+  module:
+    - image
+    - user
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_foto_de_perfil:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: medium
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  member_for: true

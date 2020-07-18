@@ -1,0 +1,15 @@
+uuid: f11cc87f-16db-4f06-9c9f-ce8e0d52de2e
+langcode: es
+status: true
+dependencies: {  }
+name: largetv
+label: LargeTv
+effects:
+  8c3a9b57-4da4-42f6-9f0e-8fad7841669d:
+    uuid: 8c3a9b57-4da4-42f6-9f0e-8fad7841669d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 3840
+      height: 2160
+      anchor: center-center

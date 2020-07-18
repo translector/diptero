@@ -1,0 +1,21 @@
+uuid: 3e41b373-8c6d-4cd7-b9a4-1458098ee785
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_leftcol
+    - paragraphs.paragraphs_type.parfourcol
+  module:
+    - text
+id: paragraph.parfourcol.field_leftcol
+field_name: field_leftcol
+entity_type: paragraph
+bundle: parfourcol
+label: 'Columna izquierda'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

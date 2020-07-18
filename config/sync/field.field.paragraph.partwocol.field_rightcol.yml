@@ -1,0 +1,21 @@
+uuid: b8c11c19-2c09-4947-b818-3690c34e4ab8
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_rightcol
+    - paragraphs.paragraphs_type.partwocol
+  module:
+    - text
+id: paragraph.partwocol.field_rightcol
+field_name: field_rightcol
+entity_type: paragraph
+bundle: partwocol
+label: 'Columna derecha'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

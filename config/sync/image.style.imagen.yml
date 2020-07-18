@@ -1,0 +1,15 @@
+uuid: c4fa97d9-e07f-45cf-a90d-6c9868077ba1
+langcode: es
+status: true
+dependencies: {  }
+name: imagen
+label: Imagen
+effects:
+  ababcf20-9729-4527-8c77-085437c0bff5:
+    uuid: ababcf20-9729-4527-8c77-085437c0bff5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 540
+      height: 305
+      anchor: center-center

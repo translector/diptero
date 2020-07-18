@@ -1,0 +1,17 @@
+uuid: 5060d8fc-d074-4f12-87e8-e867099ad62a
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focalpointnanomobile
+label: FocalPointNanoMobile
+effects:
+  aaa3e12f-a8d0-4c51-9e29-4d1456553332:
+    uuid: aaa3e12f-a8d0-4c51-9e29-4d1456553332
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 427
+      crop_type: focal_point

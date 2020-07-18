@@ -1,0 +1,52 @@
+uuid: 30c667c8-98c8-49c2-bdbf-c12a914f49de
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.par_text_img.field_estilo
+    - field.field.paragraph.par_text_img.field_imagen
+    - field.field.paragraph.par_text_img.field_leftcol
+    - field.field.paragraph.par_text_img.field_titulo_parrafo
+    - image.style.large
+    - paragraphs.paragraphs_type.par_text_img
+  module:
+    - image
+    - text
+id: paragraph.par_text_img.default
+targetEntityType: paragraph
+bundle: par_text_img
+mode: default
+content:
+  field_estilo:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_imagen:
+    type: image
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+  field_leftcol:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

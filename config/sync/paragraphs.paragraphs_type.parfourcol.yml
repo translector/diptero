@@ -1,0 +1,10 @@
+uuid: 2b22a77c-a0cf-4089-b547-d13ac121bf2d
+langcode: es
+status: true
+dependencies: {  }
+id: parfourcol
+label: 'IV columnas'
+icon_uuid: null
+icon_default: null
+description: 'Cuatro columnas de contenido.'
+behavior_plugins: {  }

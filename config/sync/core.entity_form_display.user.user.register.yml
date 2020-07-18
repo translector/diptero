@@ -1,0 +1,29 @@
+uuid: adfa4c57-1456-484c-8e7d-e5e3da1306bd
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.field_foto_de_perfil
+  module:
+    - user
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_foto_de_perfil: true
+  langcode: true
+  language: true
+  path: true

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the nine theme.
+
+nine.settings:
+  type: theme_settings
+  label: 'nine settings'

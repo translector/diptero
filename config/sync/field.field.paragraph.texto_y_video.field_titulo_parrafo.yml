@@ -1,0 +1,19 @@
+uuid: bc12ff80-9078-40c5-9e30-fb91903a587f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_titulo_parrafo
+    - paragraphs.paragraphs_type.texto_y_video
+id: paragraph.texto_y_video.field_titulo_parrafo
+field_name: field_titulo_parrafo
+entity_type: paragraph
+bundle: texto_y_video
+label: Título
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

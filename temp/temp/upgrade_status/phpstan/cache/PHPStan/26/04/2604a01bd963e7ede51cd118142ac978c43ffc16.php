@@ -1,0 +1,18 @@
+<?php declare(strict_types = 1);
+
+return PHPStan\Cache\CacheItem::__set_state(array(
+   'variableKey' => '1594234425',
+   'data' => 
+  array (
+    0 => 
+    array (
+      'filename' => '/var/www/html/web/core/modules/block_content/src/Entity/BlockContent.php',
+      'modifiedTime' => 1594234425,
+    ),
+    1 => 
+    array (
+      'filename' => '/var/www/html/web/core/modules/block_content/src/Access/RefinableDependentAccessTrait.php',
+      'modifiedTime' => 1594234425,
+    ),
+  ),
+));

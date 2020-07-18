@@ -1,0 +1,25 @@
+uuid: 26714ae1-5c0d-42a5-b2e7-4662a2ad8889
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_video
+    - paragraphs.paragraphs_type.video
+  module:
+    - video_embed_field
+id: paragraph.video.field_video
+field_name: field_video
+entity_type: paragraph
+bundle: video
+label: Video
+description: 'Ingrese aquí la url del video. Plataformas: Youtube y Vimeo'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    vimeo: vimeo
+    youtube: youtube
+    youtube_playlist: youtube_playlist
+field_type: video_embed_field

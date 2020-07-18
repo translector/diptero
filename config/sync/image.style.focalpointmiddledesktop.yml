@@ -1,0 +1,17 @@
+uuid: 9a21eec8-1819-4236-af1e-e81700ec1fb4
+langcode: es
+status: true
+dependencies:
+  module:
+    - focal_point
+name: focalpointmiddledesktop
+label: FocalPointMiddleDesktop
+effects:
+  2603e53b-9e5d-400f-b94b-a21e005402c3:
+    uuid: 2603e53b-9e5d-400f-b94b-a21e005402c3
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1536
+      height: 500
+      crop_type: focal_point

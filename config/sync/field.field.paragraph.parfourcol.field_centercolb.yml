@@ -1,0 +1,21 @@
+uuid: 0abc2062-d7ab-45d0-8c24-9d1e0ee2afb9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_centercolb
+    - paragraphs.paragraphs_type.parfourcol
+  module:
+    - text
+id: paragraph.parfourcol.field_centercolb
+field_name: field_centercolb
+entity_type: paragraph
+bundle: parfourcol
+label: 'Columna central B'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,28 @@
+uuid: 92289015-aac6-4113-bae2-737c23f1aeee
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.imagen.field_imagen
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.imagen
+  module:
+    - focal_point
+id: paragraph.imagen.default
+targetEntityType: paragraph
+bundle: imagen
+mode: default
+content:
+  field_imagen:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+      preview_link: true
+      offsets: '50,50'
+    third_party_settings: {  }
+    type: image_focal_point
+    region: content
+hidden:
+  created: true
+  status: true

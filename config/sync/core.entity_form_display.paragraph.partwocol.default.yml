@@ -1,0 +1,103 @@
+uuid: 97fb4b15-45d8-4fab-87da-9540feed40a2
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.partwocol.field_estilo
+    - field.field.paragraph.partwocol.field_leftcol
+    - field.field.paragraph.partwocol.field_rightcol
+    - field.field.paragraph.partwocol.field_titulo_parrafo
+    - paragraphs.paragraphs_type.partwocol
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_tabs:
+      children:
+        - group_left_tab
+        - group_right_tab
+      parent_name: ''
+      weight: 2
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Tabs
+    group_left_tab:
+      children:
+        - field_leftcol
+      parent_name: group_tabs
+      weight: 9
+      format_type: tab
+      region: content
+      format_settings:
+        description: ''
+        formatter: open
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Columna izquierda'
+    group_right_tab:
+      children:
+        - field_rightcol
+      parent_name: group_tabs
+      weight: 10
+      format_type: tab
+      region: content
+      format_settings:
+        description: ''
+        formatter: open
+        required_fields: true
+        id: ''
+        classes: ''
+      label: 'Columna derecha'
+id: paragraph.partwocol.default
+targetEntityType: paragraph
+bundle: partwocol
+mode: default
+content:
+  field_estilo:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_leftcol:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_rightcol:
+    weight: 4
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo_parrafo:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  moderation_state:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true
