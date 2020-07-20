@@ -13,6 +13,7 @@ regions:
   primary_menu: 'Primary Menu'
   banner: 'Banner'
   tabs: 'Tabs'
+  title: 'Title'
   messages: 'Messages'
   slider: 'Slider'
   content: 'Content'
@@ -20,3 +21,4 @@ regions:
   sidebar_second: 'Right Sidebar'
   footer: 'Footer'
   auto_hidden_block: 'Auto hidden blocks'
+  

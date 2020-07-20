@@ -1,0 +1,27 @@
+{% include '@real/includes/header.html.twig' %}
+
+{% if page.title %}
+<div class="contenido">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {{ page.title }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.content %}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 contenido">
+      {{ page.content }}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
+ {{ file_url(content.field_imagen['#items'].entity.uri.value) }}
+{% include '@real/includes/footer.html.twig' %}
