@@ -10,13 +10,11 @@
   </div>
 {% endif %}
 
-<div class="contenido">
+<div class="contenido_views">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="latestnews">
-          {{ drupal_view('latest_articles', 'block_1') }}
-        </div>
+        {{ drupal_view('latest_articles', 'block_1') }}
       </div>
     </div>
   </div>
