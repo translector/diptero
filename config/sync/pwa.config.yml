@@ -1,11 +1,11 @@
-site_name: Rayblocks
-short_name: Rayblocks
-description: ''
+site_name: Diptero
+short_name: Diptero
+description: 'Control de plagas'
 start_url: /
-lang: en
-theme_color: ''
-background_color: ''
-display: ''
+lang: es
+theme_color: '#000000'
+background_color: '#000000'
+display: fullscreen
 default_image: '0'
 urls_to_cache: ''
 urls_to_exclude: "admin/.*\r\nuser/.*"
@@ -16,3 +16,6 @@ skip_waiting: false
 _core:
   default_config_hash: cP1TZQyv1WdET3iepl2QoyOPK7VeO0xHm0lU_FU1Wmc
 langcode: es
+image: /sites/default/files/pwa/kultrun.png
+image_small: /sites/default/files/pwa/kultrun.pngcopy.png
+image_very_small: /sites/default/files/pwa/kultrun.pngcopy2.png

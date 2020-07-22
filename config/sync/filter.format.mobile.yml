@@ -1,6 +1,6 @@
 uuid: 8a56898b-820e-4b8c-ad14-72bb3be4c5ca
 langcode: es
-status: true
+status: false
 dependencies: {  }
 name: Mobile
 format: mobile

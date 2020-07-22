@@ -23,37 +23,37 @@ settings:
     negate: 0
     target_bundles: null
     target_bundles_drag_drop:
-      paronecol:
-        weight: -23
-        enabled: false
-      imagen:
-        weight: -22
-        enabled: false
-      video:
-        weight: -21
-        enabled: false
-      par_text_img:
-        weight: -20
-        enabled: false
-      texto_y_video:
-        weight: -19
-        enabled: false
-      partwocol:
-        weight: -18
-        enabled: false
-      parthreecol:
-        weight: -17
-        enabled: false
-      parfourcol:
-        weight: -16
+      audio:
+        weight: -13
         enabled: false
       formulario_de_contacto:
         weight: -15
         enabled: false
+      imagen:
+        weight: -22
+        enabled: false
+      par_text_img:
+        weight: -20
+        enabled: false
+      parfourcol:
+        weight: -16
+        enabled: false
+      paronecol:
+        weight: -23
+        enabled: false
+      parthreecol:
+        weight: -17
+        enabled: false
+      partwocol:
+        weight: -18
+        enabled: false
       slider:
         weight: -14
         enabled: false
-      audio:
-        weight: -13
+      texto_y_video:
+        weight: -19
+        enabled: false
+      video:
+        weight: -21
         enabled: false
 field_type: entity_reference_revisions

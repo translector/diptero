@@ -1,0 +1,27 @@
+uuid: 554c967e-141b-4851-a686-6231d5369471
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - real
+id: pagetitle
+theme: real
+region: title
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      blog: blog
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

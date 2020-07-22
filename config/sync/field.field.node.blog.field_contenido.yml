@@ -1,19 +1,19 @@
-uuid: 9a024daf-94e7-4b15-af6b-9967511d13f2
+uuid: 74a29be7-f5d2-4bef-b553-0f8c239adac3
 langcode: es
 status: true
 dependencies:
   config:
     - field.storage.node.field_contenido
-    - node.type.front
+    - node.type.blog
   module:
     - entity_reference_revisions
-id: node.front.field_contenido
+id: node.blog.field_contenido
 field_name: field_contenido
 entity_type: node
-bundle: front
+bundle: blog
 label: contenido
 description: ''
-required: true
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''
@@ -24,36 +24,33 @@ settings:
     target_bundles: null
     target_bundles_drag_drop:
       audio:
-        weight: -13
+        weight: 11
         enabled: false
       formulario_de_contacto:
-        weight: -18
+        weight: 12
         enabled: false
       imagen:
-        weight: -22
+        weight: 13
         enabled: false
       par_text_img:
-        weight: -20
+        weight: 18
         enabled: false
       parfourcol:
-        weight: -15
+        weight: 14
         enabled: false
       paronecol:
-        weight: -23
+        weight: 15
         enabled: false
       parthreecol:
-        weight: -16
+        weight: 16
         enabled: false
       partwocol:
-        weight: -17
-        enabled: false
-      slider:
-        weight: -14
+        weight: 17
         enabled: false
       texto_y_video:
-        weight: -19
+        weight: 19
         enabled: false
       video:
-        weight: -21
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions

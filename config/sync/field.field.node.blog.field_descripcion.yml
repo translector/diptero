@@ -1,0 +1,19 @@
+uuid: 429ed9fe-0d57-48ed-ab38-47f40d501ec9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.blog
+id: node.blog.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: blog
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

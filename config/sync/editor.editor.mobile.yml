@@ -1,6 +1,6 @@
 uuid: 23fd0c01-d4d1-4ccc-8137-2a28f19d07e2
 langcode: es
-status: true
+status: false
 dependencies:
   config:
     - filter.format.mobile
