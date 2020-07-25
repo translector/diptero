@@ -3,17 +3,15 @@ langcode: es
 status: true
 dependencies:
   config:
+    - image.style.desktop
     - image.style.focalpointlargemobile
-    - image.style.focalpointmiddledesktop
     - image.style.focalpointmiddlemobile
     - image.style.focalpointnanomobile
-    - image.style.focalpointsmalldesktop
     - image.style.focalpointsmallmobile
     - image.style.imagen
-    - image.style.largetablet
-    - image.style.largetv
-    - image.style.middledesktop
-    - image.style.middletablet
+    - image.style.smalltablet
+    - image.style.tablet
+    - image.style.tv
 id: imagen_adaptable
 label: 'Imagen adaptable'
 image_style_mappings:
@@ -24,15 +22,13 @@ image_style_mappings:
     image_mapping:
       sizes: 100vw
       sizes_image_styles:
+        - smalltablet
+        - desktop
         - focalpointlargemobile
-        - focalpointmiddledesktop
         - focalpointmiddlemobile
         - focalpointnanomobile
-        - focalpointsmalldesktop
         - focalpointsmallmobile
-        - largetablet
-        - largetv
-        - middledesktop
-        - middletablet
+        - tablet
+        - tv
 breakpoint_group: responsive_image
 fallback_image_style: imagen
